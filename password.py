@@ -4,7 +4,7 @@ minus= "abcdefghijklmnopqrstuvwxyz"
 mayus=minus.upper()
 numeros="0123456789"
 simbolos= "@()[]{}*,;/-_¿?.¡!$<#>&+%=€"
-base=minus+mayus+numeros
+base=minus+mayus+numeros+simbolos
 longitud=12
 
 muestra=random.sample (base, longitud)
